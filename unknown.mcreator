@@ -1,0 +1,150 @@
+{
+  "mod_elements": [
+    {
+      "name": "BowRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unknown/procedures/BowRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BowItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unknown/procedures/BowItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BowOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unknown/procedures/BowOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BowPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/unknown/procedures/BowPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unknown/models/item/bow.json",
+          "src/main/resources/assets/unknown/models/item/bow_0.json",
+          "src/main/java/net/mcreator/unknown/item/BowItem.java",
+          "src/main/resources/assets/unknown/models/item/bow_3.json",
+          "src/main/resources/assets/unknown/models/item/bow_1.json",
+          "src/main/resources/assets/unknown/models/item/bow_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Bowrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/unknown/recipes/bowrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.unknown.bow": "Bow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unknown",
+    "modName": "Unknown",
+    "version": "1.0.0",
+    "author": "hardy, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.unknown"
+  },
+  "mcreatorVersion": 202400342716
+}
